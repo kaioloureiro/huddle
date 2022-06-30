@@ -1,0 +1,135 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.container {
+    display: grid;
+    background: url("../images/bg-desktop.svg") center left no-repeat;
+    background-size: contain;
+    font-size: 1.1em;
+    max-width: 1440px;
+    height: 100vh;
+    margin: auto;
+    padding: 0 50px;
+}
+
+.info {
+    display: grid;
+    gap: 25px;
+}
+
+.btn {
+    background-color: #fff;
+    padding: 15px 65px;
+    border-radius: 30px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+    justify-self: left;
+    color: var(--violet);
+    font-weight: 600;
+}
+
+.btn:hover {
+    background-color: var(--soft-magenta);
+    color: #fff;
+    transition-duration: 0.2s;
+}
+
+/* General Configs */
+
+:root {
+    --violet: hsl(257, 40%, 49%);
+    --soft-magenta: hsl(300, 69%, 71%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--violet);
+    color: #fff;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    max-width: 215px;
+    margin: 35px 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(375px, auto));
+}
+
+article {
+    padding: 40px 60px;
+}
+
+h1 {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 2.3em;
+    max-width: 500px;
+}
+
+h1,
+p {
+    line-height: 1.5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 0 80px;
+}
+
+ul {
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    color: #fff;
+    list-style: none;
+}
+
+svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    fill: white;
+}
+
+svg:hover {
+    border-color: var(--soft-magenta);
+    fill: var(--soft-magenta);
+    transition-duration: 0.2s;
+}
+
+small {
+    font-size: 0.7em;
+}
+
+small a {
+    color: var(--soft-magenta);
+}
+
+small a:hover {
+    color: #fff;
+    transition-duration: 0.2s;
+}
