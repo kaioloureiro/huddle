@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution Page on Frontend Mentor](https://www.frontendmentor.io/solutions/huddle-landing-page-SdMV28eypU)
 - Live Site URL: [Huddle Landing Page – Demo](https://kaioloureiro.github.io/Huddle/)
 
 ## My process
