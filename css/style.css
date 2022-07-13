@@ -30,7 +30,7 @@
     display: grid;
     align-content: start;
     gap: 1.3rem;
-    max-width: 534px;
+    width: 534px;
     margin-top: 2.6em;
 }
 
